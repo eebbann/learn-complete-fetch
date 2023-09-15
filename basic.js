@@ -10,10 +10,10 @@ function getData(url){
 		if(!res.ok) throw new Error('no way this works') //check if not ok then throw error
 		return res.json() //return data as json format
 	})
-	.then((data)=>{
+	.then((data)=>{ //another chaining to display data 
 		console.log(data)
 	})
-	.catch((e)=>{
+	.catch((e)=>{ // catch the thrown error to display the error message from the 'throw'
 		console.warn(e.message)
 	})
 }
