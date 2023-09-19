@@ -1,3 +1,6 @@
+
+// responding with images (blob)
+
 //  const imgStr = 'https://picsum.photos/id.237/200/300'
 
 // function getData(){
