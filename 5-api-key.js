@@ -27,6 +27,8 @@ h.append('Authorization', 'Bearer kajdshhfhhshjkkjjsjjsjhgdhjjsdkajhd'); // JWT 
 let request = new Request(url, {
 	method: 'GET',
 	headers: h,
+	cache: 'default',
+	credentials: 'same-origin'
 })
 
 fetch(request)
